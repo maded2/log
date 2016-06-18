@@ -9,5 +9,6 @@ TWO logging levels only
 > Features
 * Log to console and/or file
 * File logging rotate of daily basis
-* Logging configuration is stored on the filesystem and it is monitored for changes every 10 secs
+* Logging configuration is stored on the filesystem in a JSON format
+* Configuration file is monitored for changes every 10 secs
 * Dynamic suppression of Dev logging defined in the logging configuration
